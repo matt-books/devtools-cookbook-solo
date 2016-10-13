@@ -5,6 +5,7 @@
 # All rights reserved - Do Not Redistribute
 ###########################################
 
+include_recipe 'devtools::swapfile'
 include_recipe 'devtools::yum_repos'
 include_recipe 'devtools::install'
 #include_recipe 'devtools::useradd'

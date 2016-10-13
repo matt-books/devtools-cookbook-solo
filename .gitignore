@@ -1,4 +1,5 @@
 .vagrant
+nodes/
 
 # Bundler
 bin/*

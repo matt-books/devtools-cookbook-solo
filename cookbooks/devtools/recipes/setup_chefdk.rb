@@ -32,6 +32,6 @@ execute 'gem_install_kitchen_ec2' do
 end
 
 
-execut 'gem_install_chefdk' do
+execute 'gem_install_chefdk' do
 	command "su #{username} -l -c 'source ~#{username}/.rvm/scripts/rvm && gem install chef-dk'"
 end

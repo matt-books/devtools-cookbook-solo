@@ -1,0 +1,5 @@
+#!/bin/bash
+# findwgrep <word>
+# Search through the files from here (./) onward for a word
+
+find ./ -type f -exec grep -Hi "$1" {} 2>>/dev/null \;
